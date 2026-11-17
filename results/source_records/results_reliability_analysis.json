@@ -1,0 +1,98 @@
+{
+  "JAAD": {
+    "Adverse_Visual_Regime": {
+      "n_samples": 771,
+      "n_positives": 215,
+      "mean_kinematic_weight_wK": 0.45883986353874207,
+      "SAGE_Net_AUC": 0.6764681278233228,
+      "Fixed_Fusion_AUC": 0.6709720595616531,
+      "Kinematics_Alone_AUC": 0.6751380291115945,
+      "Vision_Alone_AUC": 0.6432323908315208,
+      "Delta_Adaptive_vs_Fixed": 0.0054960682616697065
+    },
+    "Pristine_Visual_Regime": {
+      "n_samples": 132,
+      "n_positives": 79,
+      "mean_kinematic_weight_wK": 0.42954587936401367,
+      "SAGE_Net_AUC": 0.6441366133269645,
+      "Fixed_Fusion_AUC": 0.6412705994745641,
+      "Kinematics_Alone_AUC": 0.6243133508478624,
+      "Vision_Alone_AUC": 0.6288512061141629,
+      "Delta_Adaptive_vs_Fixed": 0.002866013852400373
+    },
+    "Full_Canonical_Set": {
+      "n_samples": 903,
+      "n_positives": 294,
+      "mean_kinematic_weight_wK": 0.45455771684646606,
+      "SAGE_Net_AUC": 0.6822269137540073,
+      "Fixed_Fusion_AUC": 0.6788981602493214,
+      "Kinematics_Alone_AUC": 0.6774516046155736,
+      "Vision_Alone_AUC": 0.6518380751315305,
+      "Delta_Adaptive_vs_Fixed": 0.0033287535046859773
+    }
+  },
+  "PIE": {
+    "Adverse_Visual_Regime": {
+      "n_samples": 3427,
+      "n_positives": 507,
+      "mean_kinematic_weight_wK": 0.06317181885242462,
+      "SAGE_Net_AUC": 0.8918929507443734,
+      "Fixed_Fusion_AUC": 0.8776654237929266,
+      "Kinematics_Alone_AUC": 0.8828800897030612,
+      "Vision_Alone_AUC": 0.865693307395099,
+      "Delta_Adaptive_vs_Fixed": 0.0142275269514468
+    },
+    "Pristine_Visual_Regime": {
+      "n_samples": 259,
+      "n_positives": 93,
+      "mean_kinematic_weight_wK": 0.06683412939310074,
+      "SAGE_Net_AUC": 0.8187589065941184,
+      "Fixed_Fusion_AUC": 0.7737401217774323,
+      "Kinematics_Alone_AUC": 0.7452390205985231,
+      "Vision_Alone_AUC": 0.769529731830548,
+      "Delta_Adaptive_vs_Fixed": 0.045018784816686086
+    },
+    "Full_Canonical_Set": {
+      "n_samples": 3686,
+      "n_positives": 600,
+      "mean_kinematic_weight_wK": 0.06342915445566177,
+      "SAGE_Net_AUC": 0.8901674227694967,
+      "Fixed_Fusion_AUC": 0.8748277165694535,
+      "Kinematics_Alone_AUC": 0.8777813782674443,
+      "Vision_Alone_AUC": 0.8645517390365091,
+      "Delta_Adaptive_vs_Fixed": 0.015339706200043213
+    }
+  },
+  "IDD-PeD": {
+    "Adverse_Visual_Regime": {
+      "n_samples": 2279,
+      "n_positives": 233,
+      "mean_kinematic_weight_wK": 0.05098142474889755,
+      "SAGE_Net_AUC": 0.7534391401205744,
+      "Fixed_Fusion_AUC": 0.7196917255064841,
+      "Kinematics_Alone_AUC": 0.7541460569980576,
+      "Vision_Alone_AUC": 0.6238772188169945,
+      "Delta_Adaptive_vs_Fixed": 0.033747414614090365
+    },
+    "Pristine_Visual_Regime": {
+      "n_samples": 319,
+      "n_positives": 37,
+      "mean_kinematic_weight_wK": 0.0517590269446373,
+      "SAGE_Net_AUC": 0.5930611462526355,
+      "Fixed_Fusion_AUC": 0.6682001150086256,
+      "Kinematics_Alone_AUC": 0.5939237109449875,
+      "Vision_Alone_AUC": 0.5585585585585586,
+      "Delta_Adaptive_vs_Fixed": -0.07513896875599013
+    },
+    "Full_Canonical_Set": {
+      "n_samples": 2598,
+      "n_positives": 270,
+      "mean_kinematic_weight_wK": 0.05107690021395683,
+      "SAGE_Net_AUC": 0.7283584701540028,
+      "Fixed_Fusion_AUC": 0.7066628484154257,
+      "Kinematics_Alone_AUC": 0.7289630266004838,
+      "Vision_Alone_AUC": 0.612892166221204,
+      "Delta_Adaptive_vs_Fixed": 0.021695621738577087
+    }
+  }
+}

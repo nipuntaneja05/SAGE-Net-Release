@@ -1,0 +1,116 @@
+{
+  "1_kinematics_only": {
+    "name": "Kinematics Only (K_M)",
+    "desc": "Pedestrian motion trajectory dynamics alone",
+    "mean_auc": 0.7359924271350388,
+    "std_auc": 0.01412125938823187,
+    "mean_ap": 0.34418939302298457,
+    "std_ap": 0.07395061152857235,
+    "mean_f1_star": 0.3580603772334917,
+    "std_f1_star": 0.04902343538429262,
+    "mean_acc_star": 0.8215550423402618,
+    "mean_rec_star": 0.4666666666666666,
+    "mean_prec_star": 0.30076745957608964,
+    "mean_acc_05": 0.7298691301000769,
+    "seed_aucs": {
+      "42": 0.7289614356624667,
+      "101": 0.7322371770395826,
+      "2024": 0.7193298969072165,
+      "7": 0.7615311187476135,
+      "999": 0.737902507318315
+    },
+    "ensemble_auc": 0.7495179457808323,
+    "ensemble_ap": 0.4330068082297076,
+    "ensemble_f1_star": 0.39009287925696595,
+    "ensemble_acc_star": 0.8483448806774442,
+    "bootstrap_test_vs_pcpa": null
+  },
+  "2_visual_only": {
+    "name": "Visual Streams Only (V_M, V_S, V_I)",
+    "desc": "Pedestrian crop, scene context and surround alone",
+    "mean_auc": 0.6641781214203893,
+    "std_auc": 0.03601676316581643,
+    "mean_ap": 0.2520558714558646,
+    "std_ap": 0.01957832420452334,
+    "mean_f1_star": 0.1754254379055052,
+    "std_f1_star": 0.06637635136888471,
+    "mean_acc_star": 0.894072363356428,
+    "mean_rec_star": 0.11555555555555556,
+    "mean_prec_star": 0.531511168569992,
+    "mean_acc_05": 0.8980754426481911,
+    "seed_aucs": {
+      "42": 0.6128945526282296,
+      "101": 0.6338702749140894,
+      "2024": 0.673666793941708,
+      "7": 0.7113656611938398,
+      "999": 0.6890933244240804
+    },
+    "ensemble_auc": 0.7039415489372532,
+    "ensemble_ap": 0.2761329823317978,
+    "ensemble_f1_star": 0.17391304347826086,
+    "ensemble_acc_star": 0.8976135488837568,
+    "bootstrap_test_vs_pcpa": null
+  },
+  "3_fixed_uniform_fusion": {
+    "name": "Fixed Uniform Fusion (50/50)",
+    "desc": "Equal fixed 50/50 weighting of kinematics and visual streams",
+    "mean_auc": 0.7325833651520937,
+    "std_auc": 0.02294712853112072,
+    "mean_ap": 0.30458519540469303,
+    "std_ap": 0.014267693615543437,
+    "mean_f1_star": 0.18987800155221346,
+    "std_f1_star": 0.06797747937643155,
+    "mean_acc_star": 0.8883756735950732,
+    "mean_rec_star": 0.13851851851851854,
+    "mean_prec_star": 0.48973083004326784,
+    "mean_acc_05": 0.8981524249422634,
+    "seed_aucs": {
+      "42": 0.7066644393534427,
+      "101": 0.7137464999363625,
+      "2024": 0.7298348606338297,
+      "7": 0.7716709621993127,
+      "999": 0.7410000636375207
+    },
+    "ensemble_auc": 0.7523752704594627,
+    "ensemble_ap": 0.32234866956926533,
+    "ensemble_f1_star": 0.18507462686567164,
+    "ensemble_acc_star": 0.894919168591224,
+    "bootstrap_test_vs_pcpa": {
+      "obs_auc": 0.7523752704594627,
+      "baseline_auc": 0.7113,
+      "delta_obs": 0.04107527045946269,
+      "bootstrap_se": 0.04063415261973483,
+      "ci_95": [
+        -0.049168664453743606,
+        0.11618209470346934
+      ],
+      "p_value": 0.144
+    }
+  },
+  "4_full_adaptive_fusion": {
+    "name": "Full Proposed Architecture (Scene-Adaptive Gate)",
+    "desc": "Full 6-encoder architecture with scene-adaptive gate and occlusion/illumination blocks",
+    "mean_auc": 0.7416195749013619,
+    "std_auc": 0.020241924112674198,
+    "mean_ap": 0.3900214597535058,
+    "std_ap": 0.053457988621763354,
+    "mean_f1_star": 0.3736410753879053,
+    "std_f1_star": 0.03436396765670053,
+    "mean_acc_star": 0.8320246343341031,
+    "mean_rec_star": 0.47703703703703704,
+    "mean_prec_star": 0.31116229747048935,
+    "mean_acc_05": 0.8996920708237106,
+    "seed_aucs": {
+      "42": 0.7283584701540028,
+      "101": 0.7331233295150821,
+      "2024": 0.7207728776886853,
+      "7": 0.7780625556828307,
+      "999": 0.7477806414662086
+    },
+    "ensemble_auc": 0.758296741758941,
+    "ensemble_ap": 0.4280079979042005,
+    "ensemble_f1_star": 0.39156626506024095,
+    "ensemble_acc_star": 0.844495765973826,
+    "bootstrap_test_vs_pcpa": null
+  }
+}

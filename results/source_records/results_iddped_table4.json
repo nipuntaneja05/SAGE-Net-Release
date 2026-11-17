@@ -1,0 +1,102 @@
+{
+  "SingleRNN [23]": {
+    "Occl_wo": 0.63,
+    "Occl_w": 0.61,
+    "Sig_Yes": 0.7,
+    "Sig_No": 0.62,
+    "Illum_Day": 0.63,
+    "Illum_Night": 0.58,
+    "Inter_wo": 0.65,
+    "Inter_w": 0.58
+  },
+  "I3D [27]": {
+    "Occl_wo": 0.6,
+    "Occl_w": 0.57,
+    "Sig_Yes": 0.48,
+    "Sig_No": 0.64,
+    "Illum_Day": 0.65,
+    "Illum_Night": 0.51,
+    "Inter_wo": 0.64,
+    "Inter_w": 0.6
+  },
+  "SF-GRU [30]": {
+    "Occl_wo": 0.6,
+    "Occl_w": 0.59,
+    "Sig_Yes": 0.6,
+    "Sig_No": 0.59,
+    "Illum_Day": 0.62,
+    "Illum_Night": 0.53,
+    "Inter_wo": 0.61,
+    "Inter_w": 0.59
+  },
+  "PCPA [31]": {
+    "Occl_wo": 0.72,
+    "Occl_w": 0.71,
+    "Sig_Yes": 0.66,
+    "Sig_No": 0.72,
+    "Illum_Day": 0.74,
+    "Illum_Night": 0.65,
+    "Inter_wo": 0.73,
+    "Inter_w": 0.69
+  },
+  "SAGE-Net (Scene-Adaptive Gate)": {
+    "Occl_wo": 0.7479,
+    "Occl_w": 0.7629,
+    "Sig_Yes": 0.7211,
+    "Sig_No": 0.7741,
+    "Illum_Day": 0.7564,
+    "Illum_Night": 0.7495,
+    "Inter_wo": 0.7405,
+    "Inter_w": 0.7479
+  },
+  "SAGE-Net (Fixed Uniform 50/50)": {
+    "Occl_wo": 0.7622,
+    "Occl_w": 0.7011,
+    "Sig_Yes": 0.7544,
+    "Sig_No": 0.7462,
+    "Illum_Day": 0.7748,
+    "Illum_Night": 0.6749,
+    "Inter_wo": 0.7314,
+    "Inter_w": 0.7629
+  },
+  "Kinematics Only (K_M + K_S + K_I)": {
+    "Occl_wo": 0.7319,
+    "Occl_w": 0.7719,
+    "Sig_Yes": 0.7017,
+    "Sig_No": 0.7717,
+    "Illum_Day": 0.7378,
+    "Illum_Night": 0.7686,
+    "Inter_wo": 0.7375,
+    "Inter_w": 0.7372
+  },
+  "Visual Streams Only (V_M + V_S + V_I)": {
+    "Occl_wo": 0.7247,
+    "Occl_w": 0.6228,
+    "Sig_Yes": 0.7731,
+    "Sig_No": 0.6786,
+    "Illum_Day": 0.765,
+    "Illum_Night": 0.5107,
+    "Inter_wo": 0.729,
+    "Inter_w": 0.724
+  },
+  "Kinematics Motion Alone (K_M)": {
+    "Occl_wo": 0.7192,
+    "Occl_w": 0.7504,
+    "Sig_Yes": 0.6791,
+    "Sig_No": 0.7563,
+    "Illum_Day": 0.6925,
+    "Illum_Night": 0.8151,
+    "Inter_wo": 0.7027,
+    "Inter_w": 0.7288
+  },
+  "Visual Motion Alone (V_M)": {
+    "Occl_wo": 0.5622,
+    "Occl_w": 0.4773,
+    "Sig_Yes": 0.5241,
+    "Sig_No": 0.5544,
+    "Illum_Day": 0.6542,
+    "Illum_Night": 0.2802,
+    "Inter_wo": 0.6342,
+    "Inter_w": 0.5605
+  }
+}

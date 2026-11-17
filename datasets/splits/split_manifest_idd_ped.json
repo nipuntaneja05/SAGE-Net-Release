@@ -1,0 +1,52 @@
+{
+  "dataset": "IDD-PeD",
+  "description": "Frozen split manifests for IDD-PeD encounter intention benchmark",
+  "generated_at": "2026-10-19T13:34:37.402578Z",
+  "total_videos": 33,
+  "official_split": {
+    "protocol": "Official IDD-PeD Benchmark 13-Held-Out-Video Split",
+    "seed": 42,
+    "train_videos": [
+      "gp_set_0001_vid_0003",
+      "gp_set_0001_vid_0005",
+      "gp_set_0001_vid_0006",
+      "gp_set_0001_vid_0007",
+      "gp_set_0001_vid_0008",
+      "gp_set_0002_vid_0001",
+      "gp_set_0002_vid_0002",
+      "gp_set_0002_vid_0004",
+      "gp_set_0002_vid_0005",
+      "gp_set_0004_vid_0001",
+      "gp_set_0004_vid_0002",
+      "gp_set_0004_vid_0003",
+      "gp_set_0004_vid_0005",
+      "gp_set_0006_vid_0002",
+      "gp_set_0007_vid_0004",
+      "gp_set_0007_vid_0005"
+    ],
+    "val_videos": [
+      "gp_set_0001_vid_0001",
+      "gp_set_0001_vid_0002",
+      "gp_set_0006_vid_0001",
+      "gp_set_0006_vid_0003"
+    ],
+    "test_videos": [
+      "gp_set_0003_vid_0001",
+      "gp_set_0003_vid_0002",
+      "gp_set_0003_vid_0003",
+      "gp_set_0003_vid_0004",
+      "gp_set_0003_vid_0005",
+      "gp_set_0005_vid_0001",
+      "gp_set_0005_vid_0002",
+      "gp_set_0005_vid_0003",
+      "gp_set_0005_vid_0005",
+      "gp_set_0008_vid_0001",
+      "gp_set_0008_vid_0004",
+      "gp_set_0008_vid_0005",
+      "gp_set_0009_vid_0001"
+    ],
+    "n_train": 16,
+    "n_val": 4,
+    "n_test": 13
+  }
+}

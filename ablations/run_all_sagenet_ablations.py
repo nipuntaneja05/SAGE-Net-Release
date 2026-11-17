@@ -89,7 +89,7 @@ class SAGEResolutionDataset(Dataset):
             km = s['K_M'].clone()
             km[:, 0] /= w_res; km[:, 2] /= w_res; km[:, 4] /= w_res; km[:, 8] /= w_res
             km[:, 1] /= h_res; km[:, 3] /= h_res; km[:, 5] /= h_res; km[:, 9] /= h_res
-            
+
             normed_item = {
                 'V_M': s['V_M'],
                 'V_S': s['V_S'],

@@ -268,12 +268,12 @@ class KinematicInteractionEncoder(nn.Module):
         dist_proxy = 1.0 / torch.clamp(h, min=eps)
         vx, vy = km[:, :, 4], km[:, :, 5]
         heading = torch.atan2(vy, vx + eps)
-        
+
         inter_feat = torch.stack([aspect, area, dist_proxy, vx, heading], dim=-1) # [B, Seq, 5]
         x = self.input_proj(inter_feat) # [B, Seq, embed_dim]
         attn_out, _ = self.mha(x, x, x)
         x_fused = x + attn_out
-        
+
         lstm_out, _ = self.bilstm(x_fused)
         h_norm = self.norm(lstm_out)
         pooled, alpha = self.attn(h_norm)

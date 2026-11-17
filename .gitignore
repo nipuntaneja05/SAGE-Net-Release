@@ -16,3 +16,9 @@ __pycache__/
 *.out
 *.synctex.gz
 *.toc
+
+# Manuscript assets retained locally and excluded from the public code repository
+/cvpr-paper/
+/release/
+/results/paper_reported_results.json
+/evaluation/render_paper_figures.py

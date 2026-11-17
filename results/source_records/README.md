@@ -1,5 +1,5 @@
 # Original experiment records
 
-These JSON files are unchanged copies of the result records that were present in the working release folder before packaging. They include earlier runs and records with different protocols; they are retained for provenance and must not be read as the values in the current manuscript.
+These JSON files are unchanged copies of the original experiment records. They include earlier runs and records with different protocols and are retained for provenance.
 
-Use `../paper_reported_results.json` for an exact transcription of the paper tables. Its evidence status and the unresolved IDD-PeD reconciliation are recorded there and in `../../release/verification_report.md`.
+Some IDD-PeD summaries disagree across records. These files have not been reconciled into a single benchmark result or independently reproduced. Match the run configuration, seed selection, and evaluation protocol before comparing values.
